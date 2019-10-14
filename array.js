@@ -37,7 +37,7 @@ const books = [
 ]
 //Filter
 const booksOver100pagesGreenCover = books.filter(
-  book=> book.pages >= 5 && book.coverColor === "green"
+  book=> book.pages >= 100 && book.coverColor === "green"
 );
 
 console.log(booksOver100pagesGreenCover);
@@ -46,7 +46,6 @@ console.log(booksOver100pagesGreenCover);
 // [
 //     { name: 'Javascript is cool', pages: 200, coverColor: 'green' },
 //     { name: 'Me-coder', pages: 350, coverColor: 'green' },
-//     { name: "Let's Encrypt", pages: 27, coverColor: 'green' },
 //     { name: 'React', pages: 268, coverColor: 'green' }
 //   ]
 
